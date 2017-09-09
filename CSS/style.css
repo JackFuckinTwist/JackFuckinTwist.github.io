@@ -1,0 +1,284 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #eee2cc;
+    background-image: url("../ASSETS/fondo_web_full.jpg");
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ESCONDER */
+.container-nav-respons,
+.fachada-small,
+.anuncio-index-small,
+.logo-respons,
+.menu-icon,
+.container-iconos-redes {
+    display: none;
+}
+
+.container {
+    max-width: 1070px;
+    display: block;
+    margin: auto;
+    height: 100%;
+    position: relative;
+    ;
+}
+
+
+/*-----------------MARCO----------------*/
+
+.marco {
+    z-index: -10;
+    position: absolute;
+    background: url("../ASSETS/marco_web.svg") no-repeat center top;
+    background-size: auto 826.786px;
+    margin: 20px auto 0px auto;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-origin: content-box;
+    opacity: 0.9;
+    background-blend-mode: darken;
+}
+
+.marco:hover {
+    opacity: 2%;
+}
+/*-----------------LOGOS----------------*/
+
+.logo {
+    display: inline-block;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 4%;
+    margin-top: 20px;
+    margin-right: 73.57%;
+    float: left;
+}
+
+.logo1,
+.logo2 {
+    width: 100%;
+    height: auto;
+}
+
+.logo2,
+.logo3 {
+    display: none;
+}
+
+
+/*-----------------NAV----------------*/
+
+.container_nav {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    float: right;
+    text-align: center;
+    margin-left: 204.1px;
+    margin-right: 335.17px;
+}
+
+.wrap_nav_big {
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    margin: 0px;
+    /*
+    margin-left: -100px;
+    margin-right: 25%;
+*/
+    z-index: 11;
+    position: absolute;
+}
+
+
+/*-------BOTONES------------  */
+
+.btnmenu,
+.btnreserva,
+.btnubic,
+.btncontact {
+    width: 117px;
+    height: auto;
+    margin-right: 5px;
+    display: inline-block;
+    opacity: 0.4;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+
+.btnmenu:hover,
+.btnreserva:hover,
+.btnubic:hover,
+.btncontact:hover {
+    opacity: 0.7;
+}
+
+.btnmenu:active,
+.btnreserva:active,
+.btnubic:active,
+.btncontact:active {
+    opacity: 1;
+}
+
+
+/*FACHADA Y COPY*/
+
+ .wrap-cuerpo {
+        display: block;
+        width: 100%;
+        margin: auto;
+        float: right;
+        text-align: center;
+        margin: 85px 185px 0px 320px;
+    }
+    
+    .wrap-cuerpo-int {
+        position: absolute;
+        display: inline-block;
+        width: 602.19px;
+        margin: 0px;
+    }
+    
+    .fachada {
+        display: inline-block;
+        float: right;
+        margin-top: 22px;
+    }
+    
+    .copy-cuerpo {
+        width: 203.688px;
+        text-align: right;
+        display: inline-block;
+        margin-right: 18.5px;
+        margin-top: 86px;
+        float: right;
+    }
+
+
+/*ANUNCIO INDEX*/
+
+.anuncio-index-respons {
+    display: none;
+}
+
+.wrap-anuncio {
+        display: block;
+        width: 100%;
+        margin: auto;
+        float: right;
+        text-align: center;
+        margin: 85px 480px 0px 42.8px;
+    }
+    
+    .wrap-anuncio-int {
+        position: absolute;
+        display: inline-block;
+        width: 445px;
+        margin: 0px;
+    }
+    
+    .anuncio-index {
+        display: inline-block;
+        float: left;
+        margin-top: 65px;
+    }
+    
+    .copy-anuncio {
+        width: 147.327px;
+        text-align: left;
+        display: inline-block;
+        margin-left: 18.5px;
+        margin-top: 370px;
+        float: right;
+    }
+
+
+
+
+
+
+
+
+
+/*FOOT*/
+
+.foot_container {
+    transform: rotate(-8deg);
+    display: block;
+    float: left;
+    margin-left: 75%;
+    margin-top: 350px;
+}
+
+
+/*MEDIAS*/
+
+@media screen and (max-width: 1070px) {
+    .logo1,
+    .logo3 {
+        display: none;
+    }
+    .logo {
+        margin-top: calc(130px - 10vw);
+        margin-left: 3%;
+    }
+    .logo2 {
+        width: 80%;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .marco {
+        background: url("../ASSETS/marco_web_foot.svg") no-repeat center top;
+        background-size: auto 716px;
+    }
+    .foot_container {
+        margin-left: 75%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .logo1,
+    .logo2 {
+        display: none;
+    }
+    .logo3 {
+        width: 90%;
+        display: inline-block;
+    }
+    .logo {
+        margin-top: calc(130px - 6vw);
+        margin-left: 3%;
+        margin-right: 90%;
+    }
+    .anuncio-index-big {
+        display: none;
+    }
+    
+    .anuncio-index-respons {
+        display: inherit;
+    }
+}
+
+

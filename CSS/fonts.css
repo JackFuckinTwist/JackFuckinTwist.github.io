@@ -1,0 +1,109 @@
+    @font-face {
+        font-family: 'Aroha';
+        font-weight: normal;
+        src: url("fonts/Arohabien.otf");
+    }
+    
+    @font-face {
+        font-family: 'Din_reg';
+        font-weight: normal;
+        src: url("fonts/DIN 2014 Regular.otf");
+    }
+    
+    @font-face {
+        font-family: 'Din_demi';
+        font-weight: normal;
+        src: url("fonts/DIN 2014 Demi.otf");
+    }
+    
+    @font-face {
+        font-family: 'FontAwesome';
+        font-weight: normal;
+        src: url("fonts/FontAwesome.otf");
+    }
+    
+    @font-face {
+        font-family: 'Myriad';
+        font-weight: normal;
+        src: url("fonts/MyriadPro-Regular.otf");
+    }
+    /*FOOTER*/
+    
+    .fontawesome {
+        font-style: normal;
+        font-family: "fontawesome";
+    }
+    
+    .foot_container {
+        font-family: "din_reg";
+        font-size: 8pt;
+        color: #57a044;
+    }
+    /*FACHADA Y COPY*/
+    
+    .titulo-cuerpo {
+        font-family: "aroha";
+        font-size: 34pt;
+        line-height: 21pt;
+        margin: 0;
+        color: #c04e36;
+    }
+    
+    .copy {
+        font-family: "din_reg";
+        font-size: 8pt;
+        line-height: 11pt;
+        color: #594a41;
+        margin-top: -2px;
+    }
+
+
+/*ANUNCIO INDEX*/
+
+.copy-anuncio {
+    font-family: "aroha";
+    font-size: 16.1pt;
+    line-height: 9.01pt;
+            color: #594a41;
+
+}
+
+
+
+
+
+/*FUENTES MOVIL*/
+
+@media screen and (max-width: 580px) {
+    
+      /*FACHADA Y COPY*/
+    
+    .titulo-cuerpo {
+        font-family: "aroha";
+        font-size: 32pt;
+        line-height: 21pt;
+        margin: 0;
+        color: #c04e36;
+    }
+    
+    .copy {
+        font-family: "din_reg";
+        font-size: 8.5pt;
+        line-height: 11pt;
+        color: #594a41;
+        margin-top: 5px;
+    }
+
+
+/*ANUNCIO INDEX*/
+
+.copy-anuncio {
+    font-family: "aroha";
+    font-size: 20pt;
+    line-height: 11pt;
+            color: #594a41;
+
+}  
+    
+    
+}
