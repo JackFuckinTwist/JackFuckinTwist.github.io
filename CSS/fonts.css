@@ -7,13 +7,13 @@
     @font-face {
         font-family: 'Din_reg';
         font-weight: normal;
-        src: url("fonts/DIN 2014 Regular.otf");
+        src: url("fonts/DIN_reg.otf");
     }
     
     @font-face {
         font-family: 'Din_demi';
         font-weight: normal;
-        src: url("fonts/DIN 2014 Demi.otf");
+        src: url("fonts/DIN_demi.otf");
     }
     
     @font-face {
