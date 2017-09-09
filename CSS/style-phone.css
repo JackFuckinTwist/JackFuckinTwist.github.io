@@ -21,7 +21,7 @@
         width: auto;
         margin: 10px 3% 0px 3%;
         padding: 8%;
-        background-image: url(../ASSETS/bg_phone.svg);
+        background-image: url(../ASSETS/bg_phone.png);
         background-repeat: repeat-y;
         background-size: cover;
         background-origin: border-box;
@@ -65,7 +65,7 @@
         text-decoration: none;
         line-height: 22.5066vw;
         pointer-events: none;
-        font-family: "aroha";
+        font-family: "Aroha";
         font-size: 10vw;
         color: #594941;
         opacity: 0.8;

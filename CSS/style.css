@@ -44,7 +44,7 @@ body {
 .marco {
     z-index: -10;
     position: absolute;
-    background: url("../ASSETS/marco_web.svg") no-repeat center top;
+    background: url("../ASSETS/marco_web.png") no-repeat center top;
     background-size: auto 826.786px;
     margin: 20px auto 0px auto;
     height: 100%;
@@ -250,7 +250,7 @@ body {
 
 @media screen and (max-width: 940px) {
     .marco {
-        background: url("../ASSETS/marco_web_foot.svg") no-repeat center top;
+        background: url("../ASSETS/marco_web_foot.png") no-repeat center top;
         background-size: auto 716px;
     }
     .foot_container {

@@ -9,7 +9,7 @@
 }
 
 .marco {
-background: url("../ASSETS/5-contacto/marco_contacto.svg") no-repeat center top;
+background: url("../ASSETS/5-contacto/marco_contacto.png") no-repeat center top;
 }
 
 .fachada {
@@ -99,7 +99,7 @@ background: url("../ASSETS/5-contacto/marco_contacto.svg") no-repeat center top;
     float: right;
     text-align: left;
     margin-right: 43%;
-    font-family: "aroha";
+    font-family: "Aroha";
     font-size: 28pt;
     line-height: 12pt;
     color: #716558;
@@ -130,7 +130,7 @@ background: none;
 
 @media screen and (max-width: 940px) {
 .marco {
-background: url("../ASSETS/5-contacto/marco_contacto_foot.svg") no-repeat center top;
+background: url("../ASSETS/5-contacto/marco_contacto_foot.png") no-repeat center top;
     }
 }
 
@@ -156,6 +156,11 @@ background: url("../ASSETS/5-contacto/marco_contacto_foot.svg") no-repeat center
 
 
 @media screen and (max-width: 580px) {
+    
+    
+    
+    
+    
     .wrap-cuerpo,
     .wrap-anuncio
      {
@@ -201,7 +206,7 @@ background: url("../ASSETS/5-contacto/marco_contacto_foot.svg") no-repeat center
 .caja-coment-2,
     .caja-coment-3 {
         height: 9.9vw;
-        background-image: url(../ASSETS/5-contacto/fondo-inputs-01.svg);
+        background-image: url(../ASSETS/5-contacto/fondo-inputs-01.png);
         background-repeat: no-repeat;
         background-size:cover;
         background-clip: border-box;
@@ -211,14 +216,14 @@ background: url("../ASSETS/5-contacto/marco_contacto_foot.svg") no-repeat center
     } 
     
     .caja-coment-2 {
-        background-image: url(../ASSETS/5-contacto/fondo-inputs-02.svg);
+        background-image: url(../ASSETS/5-contacto/fondo-inputs-02.png);
     }
 
     
     
     .caja-coment-4 {
         height: 49vw;
-        background-image: url(../ASSETS/5-contacto/fondo-inputs-03.svg);
+        background-image: url(../ASSETS/5-contacto/fondo-inputs-03.png);
         background-repeat: no-repeat;
         background-size:cover;
                 background-clip: border-box;

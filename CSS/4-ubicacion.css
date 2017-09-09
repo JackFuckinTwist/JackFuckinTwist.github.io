@@ -51,7 +51,7 @@ mix-blend-mode: darken;
 
 .titulo-medios {
     display: block;
-    font-family: "aroha";
+    font-family: "Aroha";
     font-size: 28pt;
     line-height: 15pt;
     margin: 0;
@@ -153,7 +153,7 @@ td {
         width: auto;
         margin: 10px 3% 0px 3%;
         padding: 8%;
-        background-image: url(../ASSETS/bg_phone.svg);
+        background-image: url(../ASSETS/bg_phone.png);
         background-repeat: repeat-y;
         background-size: cover;
         background-origin: border-box;

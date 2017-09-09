@@ -31,18 +31,18 @@
     
     .fontawesome {
         font-style: normal;
-        font-family: "fontawesome";
+        font-family: "FontAwesome";
     }
     
     .foot_container {
-        font-family: "din_reg";
+        font-family: "Din_reg";
         font-size: 8pt;
         color: #57a044;
     }
     /*FACHADA Y COPY*/
     
     .titulo-cuerpo {
-        font-family: "aroha";
+        font-family: "Aroha";
         font-size: 34pt;
         line-height: 21pt;
         margin: 0;
@@ -50,7 +50,7 @@
     }
     
     .copy {
-        font-family: "din_reg";
+        font-family: "Din_reg";
         font-size: 8pt;
         line-height: 11pt;
         color: #594a41;
@@ -61,7 +61,7 @@
 /*ANUNCIO INDEX*/
 
 .copy-anuncio {
-    font-family: "aroha";
+    font-family: "Aroha";
     font-size: 16.1pt;
     line-height: 9.01pt;
             color: #594a41;
@@ -79,7 +79,7 @@
       /*FACHADA Y COPY*/
     
     .titulo-cuerpo {
-        font-family: "aroha";
+        font-family: "Aroha";
         font-size: 32pt;
         line-height: 21pt;
         margin: 0;
@@ -87,7 +87,7 @@
     }
     
     .copy {
-        font-family: "din_reg";
+        font-family: "Din_reg";
         font-size: 8.5pt;
         line-height: 11pt;
         color: #594a41;
@@ -98,7 +98,7 @@
 /*ANUNCIO INDEX*/
 
 .copy-anuncio {
-    font-family: "aroha";
+    font-family: "Aroha";
     font-size: 20pt;
     line-height: 11pt;
             color: #594a41;
