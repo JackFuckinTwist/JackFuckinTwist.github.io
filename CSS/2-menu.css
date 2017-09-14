@@ -142,7 +142,7 @@ font-family: "Aroha";
 color: #716558;
     border: none;
     border-collapse: collapse;
-    font-size: 19pt;
+    font-size: 22pt;
     line-height: 12pt;
     -webkit-animation: fadeEffect 1s;
     animation: fadeEffect 1s;
@@ -218,6 +218,12 @@ background: url("../ASSETS/2-menu/marco_contacto_foot.png") no-repeat center top
 
 
 @media screen and (max-width: 580px) {
+    
+    
+    .tablita {
+        color: #5a4a42;
+        font-size: 23pt;
+    }
     
     
     .container {
