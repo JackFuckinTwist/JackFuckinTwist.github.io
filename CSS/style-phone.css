@@ -208,19 +208,19 @@
         float:left;
         margin: 0;
         z-index: 25;
-        width: 5vw;
-        height: 5vw;
+        width: 7vw;
+        height: 7vw;
         right: 0vw;
         top: 0vw;
-        margin-top: 8.2vw;
-        margin-right: 7.8714vw;
+        margin-top: 6vw;
+        margin-right: 5vw;
     }
     
     .menu-icon > img {
        display: block;
-        height: 5vw;
+        height: 7vw;
 
-        width: 5vw;
+        width: 7vw;
         
     }
     

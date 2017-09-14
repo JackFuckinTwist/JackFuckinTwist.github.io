@@ -1,4 +1,9 @@
-    var logo = document.getElementById("logo") ;
+
+
+
+
+
+var logo = document.getElementById("logo") ;
     var container = document.getElementById("container-nav-respons-id");
 var iconos = document.getElementById("iconos-redes");
 

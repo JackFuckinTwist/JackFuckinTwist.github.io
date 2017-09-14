@@ -1,7 +1,16 @@
+@-webkit-keyframes fadeEfffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
+@keyframes fadeEfffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
 
 * {
     box-sizing: border-box;
+    
 }
 
 html {
@@ -35,8 +44,11 @@ body {
     margin: auto;
     height: 100%;
     position: relative;
-    ;
+    -webkit-animation: fadeEfffect .2s;
+    animation: fadeEfffect .2s;
+    
 }
+
 
 
 /*-----------------MARCO----------------*/

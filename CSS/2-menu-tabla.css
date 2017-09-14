@@ -1,0 +1,81 @@
+
+
+.Tabs {
+	position: relative;
+	background-color: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.Tabs:after {
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+.Tabs__tab {
+	float: left;
+	width: 33.333%;
+	text-align: center;
+}
+
+.Tabs__tab:first-child.active ~ .Tabs__presentation-slider {
+	left: 0;
+    	background-color: #c14e36;
+}
+
+.Tabs__tab:nth-child(2).active ~ .Tabs__presentation-slider {
+	left: 33.333%;
+        	background-color: #ccb52c;
+
+}
+
+.Tabs__tab:nth-child(3).active ~ .Tabs__presentation-slider {
+	left: calc(33.333% * 2);
+        	background-color: #65b245;
+
+}
+
+.Tabs__presentation-slider {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 33.333%;
+	height: 3px;
+	-webkit-transition: left .25s;
+	transition: left .25s;
+}
+
+.Tab {
+	font-family: 'Aroha';
+    font-size: 25pt;
+    
+}
+
+.Tab > a {
+	display: block;
+	padding: 0px 12px;
+    margin-bottom: -5px;
+	text-decoration: none;
+	-webkit-transition: color .15s;
+	transition: color .15s;
+}
+
+
+
+.Tab:hover > a {
+	opacity: .8;
+}
+
+a#platos-btn {
+    color: #c14e36;
+}
+
+a#postres-btn {
+    color: #ccb52c;
+}
+
+a#bebidas-btn {
+    color: #65b245;
+}
