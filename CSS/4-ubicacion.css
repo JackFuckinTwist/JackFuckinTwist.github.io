@@ -141,8 +141,9 @@ td {
     
     
     
-    .anuncio-index {
-        display: none;
+    .anuncio-index,
+    .anuncio-index-big {
+        display: none !important;
     }
     
     
