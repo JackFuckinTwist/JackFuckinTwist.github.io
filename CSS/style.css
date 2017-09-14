@@ -193,6 +193,11 @@ body {
     display: none;
 }
 
+
+.anuncio-index-big {
+    display: inline-block;
+}
+
 .wrap-anuncio {
         display: block;
         width: 100%;
