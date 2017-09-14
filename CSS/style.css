@@ -193,9 +193,6 @@ body {
     display: none;
 }
 
-
-
-
 .wrap-anuncio {
         display: block;
         width: 100%;
@@ -213,7 +210,7 @@ body {
     }
     
     .anuncio-index {
-        display: inline-block !important;
+        display: inline-block;
         float: left;
         margin-top: 65px;
     }
@@ -274,10 +271,6 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    
-    .wrap-anuncio {
-        display: none;}
-    
     .logo1,
     .logo2 {
         display: none;
