@@ -210,7 +210,7 @@ body {
     }
     
     .anuncio-index {
-        display: inline-block;
+        display: inline-block !important;
         float: left;
         margin-top: 65px;
     }
