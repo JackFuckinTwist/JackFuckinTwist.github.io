@@ -32,6 +32,7 @@ body {
 .container-nav-respons,
 .fachada-small,
 .anuncio-index-small,
+.anuncio-index-respons,
 .logo-respons,
 .menu-icon,
 .container-iconos-redes {
@@ -189,9 +190,7 @@ body {
 
 /*ANUNCIO INDEX*/
 
-.anuncio-index-respons {
-    display: none;
-}
+
 
 .wrap-anuncio {
         display: block;
@@ -289,7 +288,7 @@ body {
     }
     
     .anuncio-index-respons {
-        display: inherit;
+        display: inline-block;
     }
 }
 
