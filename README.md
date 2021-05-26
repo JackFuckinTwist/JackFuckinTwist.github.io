@@ -1,2 +1,2 @@
 # JackFuckinTwist.github.io
-Brand typeface generaltor for BZTeamTV
+Brand typeface generator for BZTeamTV
